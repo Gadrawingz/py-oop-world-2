@@ -1,3 +1,5 @@
+# __str__() returns a reader-friendly string representation of a class obj.
+# It can be called with the built-in str() and print() functions.
 class Ghetto:
   def  __init__(self, rent_fees, rooms, location):
     self.rfs = rent_fees
