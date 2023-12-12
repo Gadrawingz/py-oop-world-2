@@ -16,11 +16,11 @@ mr = Person('Maria', 'Female')
 dn = Person('Danny', 'Danny')
 
 # Adding...
-a1 = gd.add_trick('Cross Over')
-a2 = gd.add_trick('3-point shooting!')
-a3 = mr.add_trick('Playing Dead')
+gd.add_trick('Cross Over')
+mr.add_trick('3-point shooting!')
+dn.add_trick('Playing Dead')
 
 # Print data
-print(a1)
-print(a2)
-print(a3)
+print(gd.tricks)
+print(mr.tricks)
+print(dn.tricks)
