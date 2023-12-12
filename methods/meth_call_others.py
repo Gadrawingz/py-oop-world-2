@@ -13,4 +13,15 @@ class Bag:
     def add_data_twice(self, stuff):
         self.add_data(stuff)
         self.add_data(stuff)
+        
+    # A method that calls another methods(2)
+    def add_data_triple(self, stuff):
+        self.add_data(stuff)
+        self.add_data(stuff)
+        self.add_data(stuff)
     
+# Calling 'em
+bag1 = Bag()
+bag1.add_data('Money')
+bag1.add_data('Clothes')
+print(bag1.data)
