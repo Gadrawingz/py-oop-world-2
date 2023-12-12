@@ -1,17 +1,17 @@
 # Gad created class named Person
 # But, Person created has tricks
 class Person:
-    tricks = []
     
     def __init__(self, name, gender):
         self.name = name
         self.gender = gender
+        self.tricks = []
         
     def add_trick(self, trick):
         self.tricks.append(trick)
 
 # Jumping out of class!
-gd = Person('Gadir', 'Male')
+gd = Person('Gad', 'Male')
 mr = Person('Maria', 'Female')
 dn = Person('Danny', 'Danny')
 
