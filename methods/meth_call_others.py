@@ -5,6 +5,12 @@ class Bag:
         # This will contain data
         self.data = []
         
+    # This method will add stuff(x) to a Bag
     def add_data(self, stuff):
         self.data = stuff
+    
+    # A method that calls another methods
+    def add_data_twice(self, stuff):
+        self.add_data(stuff)
+        self.add_data(stuff)
     
