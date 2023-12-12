@@ -20,4 +20,7 @@ a1 = gd.add_trick('Cross Over')
 a2 = gd.add_trick('3-point shooting!')
 a3 = mr.add_trick('Playing Dead')
 
-
+# Print data
+print(a1)
+print(a2)
+print(a3)
