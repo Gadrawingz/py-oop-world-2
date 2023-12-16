@@ -2,7 +2,6 @@
 # We will need to implement __add__() function in the class.
 # To overload the + operator.
 class Point:
-
     def __int__(self, a=0, b=0):
         self.a = a
         self.b = b
@@ -15,6 +14,7 @@ class Point:
         b = self.b + other.b
         return Point(a, b)
 
+# Some shits on codes
 p1 = Point(1, 2)
 p2 = Point(2, 3)
 print(p1+p2)
