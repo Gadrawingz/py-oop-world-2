@@ -23,6 +23,7 @@ class Smartphone:
     def set_maximum_price(self, price):
         self.__maximum_price = price
 
+
 # Something down here!
 phone1 = Smartphone()
 phone1.sell_smartphone()
