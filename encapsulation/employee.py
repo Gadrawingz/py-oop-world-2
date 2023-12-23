@@ -14,3 +14,11 @@ class Employee:
     # method
     def task(self):
         print(self.name, 'is working on', self.project)
+        
+        
+# Creating object of employee class ...
+employee1 = Employee('Gad', '35000', 'Gadrawingz')
+
+# Calling public method of the class
+employee1.show_details()
+employee1.task()
