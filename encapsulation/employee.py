@@ -20,5 +20,7 @@ class Employee:
 employee1 = Employee('Gad', '35000', 'Gadrawingz')
 
 # Calling public method of the class
-employee1.show_details()
-employee1.task()
+emp1 = employee1.show_details()
+emp2 = employee1.task()
+print(emp1)
+print(emp2)
