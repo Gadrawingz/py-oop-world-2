@@ -21,5 +21,11 @@ class BasketballFan(PartyAnimal) :
         self.party()
         print(self.name, "points: ", self.points)
  
+# Objects creation
+bob = PartyAnimal("Marley")
+bob.party()
 
+cp3 = BasketballFan("Chris Paul")
+cp3.party()
+cp3.touch_down()
 
