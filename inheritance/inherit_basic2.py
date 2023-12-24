@@ -12,5 +12,14 @@ class PartyAnimal :
     def party(self) :
         self.x += 1 #  same as self.x = self.x + 1
         print(self.name, "party count: ", self.x)
-    
-    
+
+# Creating a child class
+class BasketballFan(PartyAnimal) :
+    points = 0
+    def touch_down(self):
+        self.points = self.points + 7
+        self.party()
+        print(self.name, "points: ", self.points)
+ 
+
+
